@@ -1,0 +1,16 @@
+//__________First time command___________
+git config --global user.name "user name"
+git config --global user.email "email"
+
+//______________Add a new repo
+git init
+git add . yaaa git add fileName
+git commit -m "Jo bh apka msg h"
+git branch -M main
+git remote add origin apna origin likho
+git push -u origin main
+
+// ________________Update files in repo
+git add .
+git commit -m "Message"
+git push
